@@ -1,0 +1,153 @@
+.title-background {
+    background-color: #27374D;
+}
+
+.title {
+    color: #DDE6ED;
+    font-family: 'Bitter', serif;
+    font-size: 61px;
+}
+.subtitle-features {
+    color: #DDE6ED;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+.navbar-nav {
+    margin-right: 100px;
+}
+.nav-item {
+    font-family: 'Bitter', serif;
+    margin-left: 20px;
+}
+.navbar-brand {
+    font-family: 'Bitter', serif;
+}
+.profile-picture {
+    height: 450px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-colour {
+    background-color: #27374D;
+}
+.introduction-subtext {
+    width: 40%;
+    margin: auto;
+    line-height: 1.75;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+}
+
+.coffee-image {
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+}
+.introduction-text {
+    font-family: 'Bitter', serif;
+    font-size: 2rem;
+}
+.cat-image {
+    height: 130px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.skills-text {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    color: #27374D;
+}
+.skills-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.skills-copy {
+    font-family: 'Lato', sans-serif;
+}
+.empathy-image {
+    height: 210px;
+    
+}
+.web-image {
+    height: 210px;
+   
+}
+.critical-image {
+    height: 210px;
+    
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+@media screen and (max-width: 950px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;    
+    
+    }
+    .introduction-subtext {
+        width: 100%;
+        margin: auto;
+        line-height: 1.75;
+        font-family: 'Lato', sans-serif;
+        font-size: 1rem;
+    }
+    
+}
+.slideshow-title {
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color: #27374D;
+}
+.carousel-indicators .active {
+    background-color: #27374D;
+}
+.carousel-indicators button {
+    background-color: black;
+}
+.contact-text {
+    font-family: 'Bitter', serif;
+    font-size: 3rem;
+    color: #27374D;
+}
+.contact-copy {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: 55%;
+    line-height: 1.75;
+    margin: 40px auto 60px;
+}
+.contact-subtext {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.btn-dark {
+    background-color: #27374D;
+}
+.footer-container {
+    background-color: #27374D;
+    padding: 60px 0px 20px;
+    margin-top: 80px;
+}
+.footer-links {
+    color: #DDE6ED;
+    text-decoration: none;
+    margin: 20px 15px;
+    font-family: 'Lato', sans-serif;
+}
+.copyright {
+    color: #DDE6ED;
+    font-family: 'Bitter', serif;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
